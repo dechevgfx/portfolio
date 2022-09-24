@@ -99,23 +99,21 @@ left: 65%;
     border: 2px solid black;
     width: 100%;
 }
+
 /* footer styling */
 #footer {
     background-color: #abaaaa;
     text-align: center;
 }
 
+
 @media (max-width: 600px){
-    .hero-desc{
-        text-align: center;
-        font-size: 10px;
-    }
-    .hero-title{
-        text-align: center;
-        font-size: 10px;
-    }
+.bgimage{
+    display: none;
+}
 
     .hide-emojis{
         display: none;
     }
+
 }
