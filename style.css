@@ -58,11 +58,11 @@
 }
 .unset-white {
     text-decoration: none;
-    color:white
+    color: white;
 }
 .unset-white a:hover {
     text-decoration: none;
-    color:white
+    color: white;
 }
 .on-line {
     display: grid;
@@ -90,12 +90,11 @@
 .fab {
     color: #000000;
 }
-.abs{
+.abs {
     position: absolute;
-left: 65%;
-
+    left: 65%;
 }
-.my-per-line{
+.my-per-line {
     border: 2px solid black;
     width: 100%;
 }
@@ -106,14 +105,18 @@ left: 65%;
     text-align: center;
 }
 
-
-@media (max-width: 600px){
-.bgimage{
-    display: none;
-}
-
-    .hide-emojis{
-        display: none;
+@media (max-width: 600px) {
+    .hero_title {
+        font-size: 2.5rem;
+    }
+    .hero_desc {
+        font-size: 1rem;
+    }
+    .hero-text {
+        transform: translate(-50%, -50%);
     }
 
+    .hide-emojis {
+        display: none;
+    }
 }
