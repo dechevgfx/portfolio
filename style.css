@@ -16,7 +16,7 @@
 .card-img-top:hover {
     transform: scale(1.4) !important;
     z-index: 1 !important;
-    border-radius: 20% !important;
+    border-radius: 20px !important;
 }
 /* hero background image */
 .bgimage {
