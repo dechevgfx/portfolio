@@ -3,6 +3,21 @@
     background-color: black;
 }
 
+.navbar-dark .navbar-nav .nav-link {
+    color: white !important;
+}
+.btn {
+    background-color: #00bee4 !important;
+    border: black 3px !important;
+}
+#about > div > div.container > h4{
+    margin-top: 15px !important;
+}
+.card-img-top:hover {
+    transform: scale(1.4) !important;
+    z-index: 1 !important;
+    border-radius: 20% !important;
+}
 /* hero background image */
 .bgimage {
     height: 60vh;
@@ -22,7 +37,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-40%, -60%);
+    transform: translate(-50%, -50%);
     color: white;
 }
 
@@ -95,7 +110,7 @@
     left: 65%;
 }
 .my-per-line {
-    border: 2px solid black;
+    border: 2px solid #00bee4;
     width: 100%;
 }
 
