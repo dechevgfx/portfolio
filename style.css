@@ -18,6 +18,10 @@
     z-index: 1 !important;
     border-radius: 20px !important;
 }
+.cv-btn{
+    width: 45px;
+    font-size: 22px;
+}
 /* hero background image */
 .bgimage {
     height: 60vh;
